@@ -7,7 +7,7 @@ module.exports = async (kernel) => {
       params: {
         venv: "env",
         message: [
-          "pip install opencv-contrib-python==4.5.5.64 timm tqdm kornia gdown transparent-background gradio"
+          "pip install opencv-contrib-python timm tqdm kornia gdown transparent-background gradio"
         ],
       }
     }, {
